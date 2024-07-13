@@ -1,0 +1,310 @@
+@font-face {
+    font-family: attila;
+    src: url(Attila\ FREE.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #222;
+    overflow-x: hidden;
+}
+#main{
+    position: relative;
+    /* height: 100% ; */
+    background-color: #222;
+    color: white;
+}
+#full-scr-nav{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    position: absolute;
+    padding: 160px 150px;
+    top: -100vh;
+    transition: all ease 0.9s;
+    z-index: 99;
+    
+}
+#full-scr-nav h1{
+    font-size: 200px;
+    color: #222;
+}
+#nav{
+    height:100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 999;
+    padding: 0 50px;
+    
+}
+#nav-prt2{
+transition: all ease 0.9s;
+display: flex;
+align-items: center;
+
+}
+
+#nav-prt2 i{
+    transition: all ease 0.9s;
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#nav h2{
+    transition: all ease 0.9s;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+#page1{
+    min-height: 85vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page1 h1{
+    position: absolute;
+    left: 5.5%;
+    top: 21%;
+    font-size: 13vw;
+    letter-spacing: 15px;
+}
+
+#page1 h2{
+    position: absolute;
+    left: 22%;
+    top: 55%;
+    width: 24%;
+    line-height: 2.6vw;
+    font-size: 3.1vw;
+}
+
+#page1 h3{
+    position: absolute;
+    left: 70%;
+    top: 57%;
+    width: 9%;
+    font-size: 0.85vw;
+    line-height: 0.8vw;
+}
+
+
+#page2 img{
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,0) scale(0.9);
+}
+
+#page2{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 20vh;
+}
+#page2 h1{
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    transform-origin: 100% 100% ;
+    margin-right: auto;
+    opacity: 0;
+    transform: rotateX(270deg);
+}
+#h11{
+    margin-top: 20vh;
+}
+#page2 h1 span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+#page3{
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page4{
+    height: 89vh;
+    width: 100vw;
+    position: relative;
+    padding: 60px 140px;
+}
+#page4 h1{
+ font-size: 7.8vw;
+}
+
+#page5{
+    height: 130vh;
+    width: 100vw;
+}
+#pg5-elems{
+    height: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pg5-elems h1{
+    width: 70%;
+    height: 100%;
+    font-size: 60px;
+    padding: 10px 80px;
+    border: 1px solid #d1d1d1;
+}
+#pg5-elems h2{
+    width: 30%;
+    height: 100%;
+    font-size: 22px;
+    padding: 60px 80px;
+    border-bottom: 1px solid #d1d1d1;
+    border-top: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+}
+
+#pg5-content{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(background_star_img.gif);
+    padding: 200px 0;
+
+}
+
+#pg5-content h1{
+    font-size: 3.6vw;
+    text-align: center;
+    width: 60%;
+    line-height: 3vw;
+}
+
+#pg5-content h1 span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+#pg5-content h4{
+    font-size: 1.2vw;
+    width: 30%;
+    margin: 50px;
+    text-align: center;
+}
+#page6 .slide1-of-h1{
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+
+}
+
+#page6 h1{
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: 23vh;
+}
+#page6 .one2{
+    color: transparent;
+    -webkit-text-stroke: 1px #adadad;
+}
+#page6 .slide2-of-h1{
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+
+}
+#page6 .slide2-of-h1::-webkit-scrollbar{
+    display: none;
+}
+#page6 .slide1-of-h1::-webkit-scrollbar{
+    display: none;
+}
+#page6 .slide2-of-h1 h1{
+   transform: translateX(-100%);
+}
+
+#page7{
+    height: 100vh;
+    width: 100vw;
+    background-color: #222;
+    padding: 100px 50px;
+}
+
+#page7 h3{
+    font-size: 2.9vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+#page7 h3 span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 3.2vw;
+}
+
+#page7-elems{
+    height: 45vh;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#page7-elems #elem1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+}
+#page7-elems #elem2{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+}
+
+#page7-elems #elem1 h1{
+    font-size: 60px;
+    z-index: 990;
+    position: relative;
+}
+#page7-elems #elem2 h1{
+    font-size: 60px;
+    z-index: 99;
+    position: relative;
+}
+
+#page7-elems #elem1 img{
+    position: absolute;
+    opacity: 0;
+    transition: opacity ease-in 0.2s;
+    transform: rotate(15deg);
+}
+
+#page7-elems #elem2 img{
+    position: absolute;
+    opacity: 0;
+    transition: opacity ease-in 0.2s;
+    transform: rotate(15deg);
+}
